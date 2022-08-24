@@ -11,7 +11,7 @@ class App extends React.Component {
                 {
                     id: 1,
                     title: "Стул серый",
-                    img: 'chair-grey.jpeg',
+                    img: 'chair1.jpg',
                     desc: 'lorem',
                     category: 'chairs',
                     price: 49.99
@@ -19,7 +19,7 @@ class App extends React.Component {
                 {
                     id: 2,
                     title: "Стол",
-                    img: 'chair-grey.jpeg',
+                    img: 'images.png',
                     desc: 'lorem',
                     category: 'able',
                     price: 49.99
@@ -27,7 +27,7 @@ class App extends React.Component {
                 {
                     id: 3,
                     title: 'Cтол',
-                    img: 'chair-grey.jpeg',
+                    img: 'table2.jpg',
                     desc: 'lorem',
                     category: 'able',
                     price: 49.99
@@ -35,7 +35,7 @@ class App extends React.Component {
                 {
                     id: 4,
                     title: 'Табурет',
-                    img: 'chair-grey.jpeg',
+                    img: 'chair2.jpg',
                     desc: 'lorem',
                     category: 'chairs',
                     price: 49.99
@@ -43,7 +43,7 @@ class App extends React.Component {
                 {
                     id: 5,
                     title: 'Полка',
-                    img: 'chair-grey.jpeg',
+                    img: 'table-little.jpg',
                     desc: 'lorem',
                     category: 'shelf',
                     price: 49.99
@@ -51,7 +51,7 @@ class App extends React.Component {
                 {
                     id: 6,
                     title: 'Столешница',
-                    img: 'chair-grey.jpeg',
+                    img: 'table-little2.jpg',
                     desc: 'lorem',
                     category: 'countertop',
                     price: 49.99

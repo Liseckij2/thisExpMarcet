@@ -30,6 +30,16 @@ header  ul.nav li {
 header  ul.nav li:hover {
     opacity: .5;
 }
+header > div > .shop-curd-button {
+    float: top;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+hrader .shop-curd-button:hover
+hrader .shop-curd-button.active{
+color: red;
+}
+
 header .presentation {
     margin: 50px 0;
     background: url('./img/image1.jpg');
@@ -61,6 +71,54 @@ header .presentation:before {
     font-size: 15px;
     font-weight: 300;
     color: white;
+}
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .item {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 50px;
+    background: lightgray;
+    overflow: hidden;
+    position: relative;
+}
+main .item img {
+width: 100%;
+border-radius: 10px 10px;
+    transition: transform 500ms ease ;
+}
+main .item img:hover {
+    transform: scale(1.05);
+}
+h2 {
+    color: #222222;
+}
+main, p, main, b {
+    color: green;
+}
+
+.add-to-card {
+position: absolute;
+right: 20px;
+    bottom: 18px;
+    background-color: #ca5252;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+border-radius: 50%;
+cursor:pointer;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.5S ease;
+}
+.add-to-card:hover {
+    transform: scale(1.5) translateY(-5px);
 }
 footer {
     text-align: center;

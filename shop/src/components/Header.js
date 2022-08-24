@@ -1,6 +1,9 @@
-import React from "react"
+import React, {useState} from "react"
+
+import { FaCcApplePay } from "react-icons/fa";
 
 export default function Header () {
+    let [cartOpen,  setCardOpen] = useState(false)
     return (
         <header>
             <div>
@@ -12,10 +15,10 @@ House Staff
                     <li>Контакты</li>
                     <li>Кабинет</li>
                 </ul>
-                <div className='presentation'>
-
+                <FaCcApplePay class name='shop-card-button'/>
                 </div>
-            </div>
+                <div className='presentation'></div>
+
         </header>
     )
 }
