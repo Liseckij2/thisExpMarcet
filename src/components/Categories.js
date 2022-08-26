@@ -10,17 +10,17 @@ export class Categories extends  Component {
                     name: 'Все'
                 },
                 {
-                    key: 'chairs',
+                    key: 'chair',
                     name: 'Стулья'
                 },
                 {
-                    key: 'tables',
+                    key: 'table',
                     name: 'Столы'
                 },
                 {
-                    key: 'shelfs',
+                    key: 'shelf',
                     name: 'Полки'
-                }
+                },
 
             ]
         }
@@ -34,7 +34,6 @@ render ()  {
 
                 )}
         </div>
-    )
-}
+)}
 }
 export default Categories
